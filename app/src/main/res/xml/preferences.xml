@@ -18,7 +18,10 @@
         android:defaultValue="@string/settings_url_default_value"
         android:key="url"
         android:summary="@string/settings_url_summary"
-        android:title="@string/settings_url_title" />
+        android:title="@string/settings_url_title"
+        android:enabled="false"
+        android:selectable="false"
+        />
 
     <ListPreference
         android:defaultValue="medium"

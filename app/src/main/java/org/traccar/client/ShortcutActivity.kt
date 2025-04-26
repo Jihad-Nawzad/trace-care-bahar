@@ -53,6 +53,7 @@ class ShortcutActivity : AppCompatActivity() {
                     1 -> setShortcutResult(items[position], R.mipmap.ic_sos, ACTION_SOS)
                 }
                 finish()
+
             }
         }
     }
